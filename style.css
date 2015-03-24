@@ -1,0 +1,90 @@
+*{
+  font-family: 'arial', 'calibri'
+}
+nav a{
+  color:steelblue;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+nav a:hover{
+  color:rgba(255,126,0,1);
+  transition:0.75s;
+}
+
+h1 {
+  color: steelblue;
+  text-align: center;
+}
+
+h2 {
+  color: steelblue;
+  font-family: arial;
+}
+
+header {
+  color:blue;
+  background: none;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  padding: 0.5em;
+  position: absolute;
+  right: 0.5em;
+  left: 0.5em;
+  background-image: url("background.png");
+  z-index: 1;
+}
+
+section {
+  background: none;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  padding: 0.5em;
+}
+
+#homecontent{
+  top: 8.5em;
+  left: 8.75em;
+  right: 0.5em;
+  position: absolute;
+  background: rgba(0,0,0, 0.05);
+}
+
+#content{
+  top: 8.5em;
+  left: 10.75em;
+  right: 0.5em;
+  position: absolute;
+  background: rgba(0,0,0, 0.05);
+}
+
+#leftnav{
+  position: fixed;
+  top: 11em;
+  left: 0.5em;
+  margin-top: -2.5em;
+  background: none;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  padding: 0.5em;
+  background-image: url("background.png");
+  text-align: center;
+}
+
+#leftnav a{
+  display: block;
+  width: 5em auto;
+  margin: 0.25em;
+}
+article {
+  padding: 1em;
+  top: 15em;
+}
+
+header nav {
+  text-align: center;
+  color: steelblue;
+}
